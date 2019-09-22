@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<profile name="Creality Ender 5 Standard" version="2019-09-18 13:46:33" app="S3D-Software 4.1.2">
+<profile name="Creality Ender 5 Standard" version="2019-09-22 14:29:40" app="S3D-Software 4.1.2">
   <baseProfile>Creality Ender 5 (modified)</baseProfile>
   <printMaterial>PLA</printMaterial>
-  <printQuality>High</printQuality>
+  <printQuality>Medium</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
     <toolheadNumber>0</toolheadNumber>
@@ -21,9 +21,9 @@
     <wipeDistance>5</wipeDistance>
   </extruder>
   <primaryExtruder>0</primaryExtruder>
-  <layerHeight>0.08</layerHeight>
-  <topSolidLayers>4</topSolidLayers>
-  <bottomSolidLayers>4</bottomSolidLayers>
+  <layerHeight>0.2</layerHeight>
+  <topSolidLayers>3</topSolidLayers>
+  <bottomSolidLayers>3</bottomSolidLayers>
   <perimeterOutlines>2</perimeterOutlines>
   <printPerimetersInsideOut>1</printPerimetersInsideOut>
   <startPointOption>2</startPointOption>
@@ -34,7 +34,7 @@
   <firstLayerHeightPercentage>100</firstLayerHeightPercentage>
   <firstLayerWidthPercentage>150</firstLayerWidthPercentage>
   <firstLayerUnderspeed>0.5</firstLayerUnderspeed>
-  <useRaft>0</useRaft>
+  <useRaft>1</useRaft>
   <raftExtruder>0</raftExtruder>
   <raftTopLayers>3</raftTopLayers>
   <raftBaseLayers>2</raftBaseLayers>
@@ -42,9 +42,9 @@
   <raftSeparationDistance>0.14</raftSeparationDistance>
   <raftTopInfill>100</raftTopInfill>
   <aboveRaftSpeedMultiplier>0.3</aboveRaftSpeedMultiplier>
-  <useSkirt>1</useSkirt>
+  <useSkirt>0</useSkirt>
   <skirtExtruder>0</skirtExtruder>
-  <skirtLayers>2</skirtLayers>
+  <skirtLayers>1</skirtLayers>
   <skirtOutlines>2</skirtOutlines>
   <skirtOffset>4</skirtOffset>
   <usePrimePillar>0</usePrimePillar>
@@ -70,9 +70,9 @@
   <internalInfillAngles>45,-45</internalInfillAngles>
   <overlapInternalInfillAngles>0</overlapInternalInfillAngles>
   <externalInfillAngles>45,-45</externalInfillAngles>
-  <generateSupport>0</generateSupport>
+  <generateSupport>1</generateSupport>
   <supportExtruder>0</supportExtruder>
-  <supportInfillPercentage>40</supportInfillPercentage>
+  <supportInfillPercentage>30</supportInfillPercentage>
   <supportExtraInflation>0</supportExtraInflation>
   <supportBaseLayers>0</supportBaseLayers>
   <denseSupportExtruder>0</denseSupportExtruder>
@@ -84,7 +84,7 @@
   <supportLowerSeparationLayers>1</supportLowerSeparationLayers>
   <supportType>0</supportType>
   <supportGridSpacing>4</supportGridSpacing>
-  <maxOverhangAngle>45</maxOverhangAngle>
+  <maxOverhangAngle>35</maxOverhangAngle>
   <supportAngles>0</supportAngles>
   <temperatureController name="Primary Extruder">
     <temperatureNumber>0</temperatureNumber>
@@ -151,11 +151,11 @@
   <celebration>0</celebration>
   <celebrationSong>Random Song</celebrationSong>
   <postProcessing></postProcessing>
-  <defaultSpeed>3000</defaultSpeed>
+  <defaultSpeed>3600</defaultSpeed>
   <outlineUnderspeed>0.5</outlineUnderspeed>
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
-  <rapidXYspeed>4800</rapidXYspeed>
+  <rapidXYspeed>9000</rapidXYspeed>
   <rapidZspeed>1002</rapidZspeed>
   <minBridgingArea>50</minBridgingArea>
   <bridgingExtraInflation>0</bridgingExtraInflation>
@@ -245,11 +245,19 @@
     <supportInfillPercentage>30</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureQuality name="High">
-    <layerHeight>0.08</layerHeight>
+    <layerHeight>0.1</layerHeight>
     <topSolidLayers>4</topSolidLayers>
     <bottomSolidLayers>4</bottomSolidLayers>
     <skirtLayers>2</skirtLayers>
     <infillPercentage>20</infillPercentage>
+    <supportInfillPercentage>40</supportInfillPercentage>
+  </autoConfigureQuality>
+  <autoConfigureQuality name="Minis">
+    <layerHeight>0.08</layerHeight>
+    <topSolidLayers>4</topSolidLayers>
+    <bottomSolidLayers>4</bottomSolidLayers>
+    <skirtLayers>2</skirtLayers>
+    <infillPercentage>100</infillPercentage>
     <supportInfillPercentage>40</supportInfillPercentage>
   </autoConfigureQuality>
 </profile>
