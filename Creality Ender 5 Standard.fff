@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<profile name="Creality Ender 5 Standard" version="2019-09-22 14:29:40" app="S3D-Software 4.1.2">
+<profile name="Creality Ender 5 Standard" version="2019-09-22 23:43:20" app="S3D-Software 4.1.2">
   <baseProfile>Creality Ender 5 (modified)</baseProfile>
   <printMaterial>PLA</printMaterial>
-  <printQuality>Medium</printQuality>
+  <printQuality>Minis</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
     <toolheadNumber>0</toolheadNumber>
@@ -21,7 +21,7 @@
     <wipeDistance>5</wipeDistance>
   </extruder>
   <primaryExtruder>0</primaryExtruder>
-  <layerHeight>0.2</layerHeight>
+  <layerHeight>0.16</layerHeight>
   <topSolidLayers>3</topSolidLayers>
   <bottomSolidLayers>3</bottomSolidLayers>
   <perimeterOutlines>2</perimeterOutlines>
@@ -62,7 +62,7 @@
   <infillExtruder>0</infillExtruder>
   <internalInfillPattern>Rectilinear</internalInfillPattern>
   <externalInfillPattern>Rectilinear</externalInfillPattern>
-  <infillPercentage>20</infillPercentage>
+  <infillPercentage>100</infillPercentage>
   <outlineOverlapPercentage>15</outlineOverlapPercentage>
   <infillExtrusionWidthPercentage>100</infillExtrusionWidthPercentage>
   <minInfillLength>5</minInfillLength>
@@ -84,7 +84,7 @@
   <supportLowerSeparationLayers>1</supportLowerSeparationLayers>
   <supportType>0</supportType>
   <supportGridSpacing>4</supportGridSpacing>
-  <maxOverhangAngle>35</maxOverhangAngle>
+  <maxOverhangAngle>40</maxOverhangAngle>
   <supportAngles>0</supportAngles>
   <temperatureController name="Primary Extruder">
     <temperatureNumber>0</temperatureNumber>
@@ -229,7 +229,7 @@
     </fanSpeed>
   </autoConfigureMaterial>
   <autoConfigureQuality name="Fast">
-    <layerHeight>0.3</layerHeight>
+    <layerHeight>0.28</layerHeight>
     <topSolidLayers>3</topSolidLayers>
     <bottomSolidLayers>3</bottomSolidLayers>
     <skirtLayers>1</skirtLayers>
@@ -245,7 +245,7 @@
     <supportInfillPercentage>30</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureQuality name="High">
-    <layerHeight>0.1</layerHeight>
+    <layerHeight>0.12</layerHeight>
     <topSolidLayers>4</topSolidLayers>
     <bottomSolidLayers>4</bottomSolidLayers>
     <skirtLayers>2</skirtLayers>
@@ -253,11 +253,11 @@
     <supportInfillPercentage>40</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureQuality name="Minis">
-    <layerHeight>0.08</layerHeight>
-    <topSolidLayers>4</topSolidLayers>
-    <bottomSolidLayers>4</bottomSolidLayers>
-    <skirtLayers>2</skirtLayers>
+    <layerHeight>0.16</layerHeight>
+    <topSolidLayers>3</topSolidLayers>
+    <bottomSolidLayers>3</bottomSolidLayers>
+    <skirtLayers>1</skirtLayers>
     <infillPercentage>100</infillPercentage>
-    <supportInfillPercentage>40</supportInfillPercentage>
+    <supportInfillPercentage>30</supportInfillPercentage>
   </autoConfigureQuality>
 </profile>
