@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<profile name="Creality Ender 5" version="2019-10-09 11:49:22" app="S3D-Software 4.1.2">
+<profile name="Creality Ender 5" version="2019-10-15 23:58:13" app="S3D-Software 4.1.2">
   <baseProfile>Creality Ender 5 (modified)</baseProfile>
-  <printMaterial>Eryone PLA</printMaterial>
+  <printMaterial>3D Hero PLA</printMaterial>
   <printQuality>Medium</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
@@ -9,9 +9,9 @@
     <diameter>0.4</diameter>
     <autoWidth>0</autoWidth>
     <width>0.4</width>
-    <extrusionMultiplier>0.9</extrusionMultiplier>
+    <extrusionMultiplier>0.8</extrusionMultiplier>
     <useRetract>1</useRetract>
-    <retractionDistance>5</retractionDistance>
+    <retractionDistance>8</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
     <retractionZLift>0</retractionZLift>
     <retractionSpeed>2400</retractionSpeed>
@@ -195,7 +195,7 @@
   <singleExtrusionEndpointExtension>0.2</singleExtrusionEndpointExtension>
   <horizontalSizeCompensation>0</horizontalSizeCompensation>
   <autoConfigureMaterial name="PLA">
-    <globalExtruderTemperature>200</globalExtruderTemperature>
+    <globalExtruderTemperature>210</globalExtruderTemperature>
     <globalBedTemperature>60</globalBedTemperature>
     <globalExtrusionMultiplier>0.9</globalExtrusionMultiplier>
     <fanSpeed>
@@ -204,8 +204,8 @@
     </fanSpeed>
   </autoConfigureMaterial>
   <autoConfigureMaterial name="ABS">
-    <globalExtruderTemperature>235</globalExtruderTemperature>
-    <globalBedTemperature>100</globalBedTemperature>
+    <globalExtruderTemperature>240</globalExtruderTemperature>
+    <globalBedTemperature>110</globalBedTemperature>
     <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
@@ -264,6 +264,42 @@
     <globalExtruderTemperature>220</globalExtruderTemperature>
     <globalBedTemperature>60</globalBedTemperature>
     <globalExtrusionMultiplier>0.9</globalExtrusionMultiplier>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="100"/>
+    </fanSpeed>
+  </autoConfigureMaterial>
+  <autoConfigureMaterial name="Solutech PLA">
+    <globalExtruderTemperature>220</globalExtruderTemperature>
+    <globalBedTemperature>60</globalBedTemperature>
+    <globalExtrusionMultiplier>0.7</globalExtrusionMultiplier>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="100"/>
+    </fanSpeed>
+  </autoConfigureMaterial>
+  <autoConfigureMaterial name="Hatchbox PLA">
+    <globalExtruderTemperature>200</globalExtruderTemperature>
+    <globalBedTemperature>60</globalBedTemperature>
+    <globalExtrusionMultiplier>0.9</globalExtrusionMultiplier>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="100"/>
+    </fanSpeed>
+  </autoConfigureMaterial>
+  <autoConfigureMaterial name="Amolen PLA">
+    <globalExtruderTemperature>220</globalExtruderTemperature>
+    <globalBedTemperature>50</globalBedTemperature>
+    <globalExtrusionMultiplier>0.7</globalExtrusionMultiplier>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="100"/>
+    </fanSpeed>
+  </autoConfigureMaterial>
+  <autoConfigureMaterial name="3D Hero PLA">
+    <globalExtruderTemperature>220</globalExtruderTemperature>
+    <globalBedTemperature>60</globalBedTemperature>
+    <globalExtrusionMultiplier>0.8</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
       <setpoint layer="2" speed="100"/>
