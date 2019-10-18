@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<profile name="Creality Ender 5" version="2019-10-15 23:58:13" app="S3D-Software 4.1.2">
+<profile name="Creality Ender 5" version="2019-10-18 14:29:45" app="S3D-Software 4.1.2">
   <baseProfile>Creality Ender 5 (modified)</baseProfile>
-  <printMaterial>3D Hero PLA</printMaterial>
-  <printQuality>Medium</printQuality>
+  <printMaterial>Prusa PLA</printMaterial>
+  <printQuality>Minis</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
     <toolheadNumber>0</toolheadNumber>
@@ -21,7 +21,7 @@
     <wipeDistance>1</wipeDistance>
   </extruder>
   <primaryExtruder>0</primaryExtruder>
-  <layerHeight>0.2</layerHeight>
+  <layerHeight>0.16</layerHeight>
   <topSolidLayers>3</topSolidLayers>
   <bottomSolidLayers>3</bottomSolidLayers>
   <perimeterOutlines>2</perimeterOutlines>
@@ -62,7 +62,7 @@
   <infillExtruder>0</infillExtruder>
   <internalInfillPattern>Rectilinear</internalInfillPattern>
   <externalInfillPattern>Rectilinear</externalInfillPattern>
-  <infillPercentage>20</infillPercentage>
+  <infillPercentage>100</infillPercentage>
   <outlineOverlapPercentage>15</outlineOverlapPercentage>
   <infillExtrusionWidthPercentage>100</infillExtrusionWidthPercentage>
   <minInfillLength>5</minInfillLength>
@@ -151,7 +151,7 @@
   <celebration>0</celebration>
   <celebrationSong>Random Song</celebrationSong>
   <postProcessing></postProcessing>
-  <defaultSpeed>3600</defaultSpeed>
+  <defaultSpeed>3000</defaultSpeed>
   <outlineUnderspeed>0.5</outlineUnderspeed>
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
@@ -297,6 +297,15 @@
     </fanSpeed>
   </autoConfigureMaterial>
   <autoConfigureMaterial name="3D Hero PLA">
+    <globalExtruderTemperature>220</globalExtruderTemperature>
+    <globalBedTemperature>60</globalBedTemperature>
+    <globalExtrusionMultiplier>0.8</globalExtrusionMultiplier>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="100"/>
+    </fanSpeed>
+  </autoConfigureMaterial>
+  <autoConfigureMaterial name="Prusa PLA">
     <globalExtruderTemperature>220</globalExtruderTemperature>
     <globalBedTemperature>60</globalBedTemperature>
     <globalExtrusionMultiplier>0.8</globalExtrusionMultiplier>
