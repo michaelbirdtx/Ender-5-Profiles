@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<profile name="Creality Ender 5" version="2019-10-18 14:29:45" app="S3D-Software 4.1.2">
+<profile name="Creality Ender 5" version="2019-10-19 16:08:56" app="S3D-Software 4.1.2">
   <baseProfile>Creality Ender 5 (modified)</baseProfile>
-  <printMaterial>Prusa PLA</printMaterial>
+  <printMaterial>Hatchbox PLA</printMaterial>
   <printQuality>Minis</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
@@ -9,7 +9,7 @@
     <diameter>0.4</diameter>
     <autoWidth>0</autoWidth>
     <width>0.4</width>
-    <extrusionMultiplier>0.8</extrusionMultiplier>
+    <extrusionMultiplier>0.9</extrusionMultiplier>
     <useRetract>1</useRetract>
     <retractionDistance>8</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
@@ -90,7 +90,7 @@
     <temperatureNumber>0</temperatureNumber>
     <isHeatedBed>0</isHeatedBed>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="220"/>
+    <setpoint layer="1" temperature="190"/>
   </temperatureController>
   <temperatureController name="Heated Bed">
     <temperatureNumber>0</temperatureNumber>
@@ -233,7 +233,7 @@
     <topSolidLayers>3</topSolidLayers>
     <bottomSolidLayers>3</bottomSolidLayers>
     <skirtLayers>1</skirtLayers>
-    <infillPercentage>15</infillPercentage>
+    <infillPercentage>5</infillPercentage>
     <supportInfillPercentage>25</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureQuality name="Medium">
@@ -279,7 +279,7 @@
     </fanSpeed>
   </autoConfigureMaterial>
   <autoConfigureMaterial name="Hatchbox PLA">
-    <globalExtruderTemperature>200</globalExtruderTemperature>
+    <globalExtruderTemperature>190</globalExtruderTemperature>
     <globalBedTemperature>60</globalBedTemperature>
     <globalExtrusionMultiplier>0.9</globalExtrusionMultiplier>
     <fanSpeed>
