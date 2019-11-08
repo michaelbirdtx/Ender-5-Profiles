@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<profile name="Creality Ender 5 V2" version="2019-11-04 16:02:34" app="S3D-Software 4.1.2">
+<profile name="Creality Ender 5 V2" version="2019-11-08 15:39:03" app="S3D-Software 4.1.2">
   <baseProfile>Creality Ender 5</baseProfile>
-  <printMaterial>Hatchbox PLA</printMaterial>
+  <printMaterial>Prusament PLA</printMaterial>
   <printQuality>High</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
@@ -31,7 +31,7 @@
   <startPointOriginY>0</startPointOriginY>
   <sequentialIslands>0</sequentialIslands>
   <spiralVaseMode>0</spiralVaseMode>
-  <firstLayerHeightPercentage>125</firstLayerHeightPercentage>
+  <firstLayerHeightPercentage>150</firstLayerHeightPercentage>
   <firstLayerWidthPercentage>150</firstLayerWidthPercentage>
   <firstLayerUnderspeed>0.25</firstLayerUnderspeed>
   <useRaft>1</useRaft>
@@ -42,7 +42,7 @@
   <raftSeparationDistance>0.14</raftSeparationDistance>
   <raftTopInfill>100</raftTopInfill>
   <aboveRaftSpeedMultiplier>0.3</aboveRaftSpeedMultiplier>
-  <useSkirt>1</useSkirt>
+  <useSkirt>0</useSkirt>
   <skirtExtruder>0</skirtExtruder>
   <skirtLayers>2</skirtLayers>
   <skirtOutlines>2</skirtOutlines>
@@ -70,7 +70,7 @@
   <internalInfillAngles>45,-45</internalInfillAngles>
   <overlapInternalInfillAngles>0</overlapInternalInfillAngles>
   <externalInfillAngles>45,-45</externalInfillAngles>
-  <generateSupport>1</generateSupport>
+  <generateSupport>0</generateSupport>
   <supportExtruder>0</supportExtruder>
   <supportInfillPercentage>50</supportInfillPercentage>
   <supportExtraInflation>0</supportExtraInflation>
@@ -90,7 +90,7 @@
     <temperatureNumber>0</temperatureNumber>
     <isHeatedBed>0</isHeatedBed>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="210"/>
+    <setpoint layer="1" temperature="225"/>
   </temperatureController>
   <temperatureController name="Heated Bed">
     <temperatureNumber>0</temperatureNumber>
@@ -196,7 +196,7 @@
   <horizontalSizeCompensation>0</horizontalSizeCompensation>
   <autoConfigureMaterial name="PLA">
     <globalExtruderTemperature>210</globalExtruderTemperature>
-    <globalBedTemperature>65</globalBedTemperature>
+    <globalBedTemperature>60</globalBedTemperature>
     <globalExtrusionMultiplier>0.9</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
@@ -262,7 +262,25 @@
     </fanSpeed>
   </autoConfigureMaterial>
   <autoConfigureMaterial name="Hatchbox PLA">
-    <globalExtruderTemperature>210</globalExtruderTemperature>
+    <globalExtruderTemperature>200</globalExtruderTemperature>
+    <globalBedTemperature>60</globalBedTemperature>
+    <globalExtrusionMultiplier>0.8</globalExtrusionMultiplier>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="100"/>
+    </fanSpeed>
+  </autoConfigureMaterial>
+  <autoConfigureMaterial name="3D Hero PLA">
+    <globalExtruderTemperature>220</globalExtruderTemperature>
+    <globalBedTemperature>65</globalBedTemperature>
+    <globalExtrusionMultiplier>0.7</globalExtrusionMultiplier>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="100"/>
+    </fanSpeed>
+  </autoConfigureMaterial>
+  <autoConfigureMaterial name="Prusament PLA">
+    <globalExtruderTemperature>225</globalExtruderTemperature>
     <globalBedTemperature>65</globalBedTemperature>
     <globalExtrusionMultiplier>0.8</globalExtrusionMultiplier>
     <fanSpeed>
