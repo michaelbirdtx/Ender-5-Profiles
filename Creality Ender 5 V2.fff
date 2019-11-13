@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<profile name="Creality Ender 5 V2" version="2019-11-08 15:39:03" app="S3D-Software 4.1.2">
+<profile name="Creality Ender 5 V2" version="2019-11-12 18:17:34" app="S3D-Software 4.1.2">
   <baseProfile>Creality Ender 5</baseProfile>
-  <printMaterial>Prusament PLA</printMaterial>
+  <printMaterial>Hatchbox PLA</printMaterial>
   <printQuality>High</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
@@ -31,7 +31,7 @@
   <startPointOriginY>0</startPointOriginY>
   <sequentialIslands>0</sequentialIslands>
   <spiralVaseMode>0</spiralVaseMode>
-  <firstLayerHeightPercentage>150</firstLayerHeightPercentage>
+  <firstLayerHeightPercentage>100</firstLayerHeightPercentage>
   <firstLayerWidthPercentage>150</firstLayerWidthPercentage>
   <firstLayerUnderspeed>0.25</firstLayerUnderspeed>
   <useRaft>1</useRaft>
@@ -90,13 +90,13 @@
     <temperatureNumber>0</temperatureNumber>
     <isHeatedBed>0</isHeatedBed>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="225"/>
+    <setpoint layer="1" temperature="200"/>
   </temperatureController>
   <temperatureController name="Heated Bed">
     <temperatureNumber>0</temperatureNumber>
     <isHeatedBed>1</isHeatedBed>
     <stabilizeAtStartup>1</stabilizeAtStartup>
-    <setpoint layer="1" temperature="65"/>
+    <setpoint layer="1" temperature="60"/>
   </temperatureController>
   <fanSpeed>
     <setpoint layer="1" speed="0"/>
@@ -104,7 +104,7 @@
   </fanSpeed>
   <blipFanToFullPower>0</blipFanToFullPower>
   <adjustSpeedForCooling>0</adjustSpeedForCooling>
-  <minSpeedLayerTime>15</minSpeedLayerTime>
+  <minSpeedLayerTime>5</minSpeedLayerTime>
   <minCoolingSpeedSlowdown>20</minCoolingSpeedSlowdown>
   <increaseFanForCooling>0</increaseFanForCooling>
   <minFanLayerTime>45</minFanLayerTime>
@@ -151,7 +151,7 @@
   <celebration>0</celebration>
   <celebrationSong>Funky Town</celebrationSong>
   <postProcessing></postProcessing>
-  <defaultSpeed>3000</defaultSpeed>
+  <defaultSpeed>3600</defaultSpeed>
   <outlineUnderspeed>0.5</outlineUnderspeed>
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   <supportUnderspeed>0.8</supportUnderspeed>
@@ -195,8 +195,8 @@
   <singleExtrusionEndpointExtension>0.2</singleExtrusionEndpointExtension>
   <horizontalSizeCompensation>0</horizontalSizeCompensation>
   <autoConfigureMaterial name="PLA">
-    <globalExtruderTemperature>210</globalExtruderTemperature>
-    <globalBedTemperature>60</globalBedTemperature>
+    <globalExtruderTemperature>220</globalExtruderTemperature>
+    <globalBedTemperature>65</globalBedTemperature>
     <globalExtrusionMultiplier>0.9</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
@@ -252,15 +252,6 @@
     <infillPercentage>30</infillPercentage>
     <supportInfillPercentage>50</supportInfillPercentage>
   </autoConfigureQuality>
-  <autoConfigureMaterial name="Eryone Marble PLA">
-    <globalExtruderTemperature>220</globalExtruderTemperature>
-    <globalBedTemperature>65</globalBedTemperature>
-    <globalExtrusionMultiplier>0.7</globalExtrusionMultiplier>
-    <fanSpeed>
-      <setpoint layer="1" speed="0"/>
-      <setpoint layer="2" speed="100"/>
-    </fanSpeed>
-  </autoConfigureMaterial>
   <autoConfigureMaterial name="Hatchbox PLA">
     <globalExtruderTemperature>200</globalExtruderTemperature>
     <globalBedTemperature>60</globalBedTemperature>
@@ -283,6 +274,15 @@
     <globalExtruderTemperature>225</globalExtruderTemperature>
     <globalBedTemperature>65</globalBedTemperature>
     <globalExtrusionMultiplier>0.8</globalExtrusionMultiplier>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="100"/>
+    </fanSpeed>
+  </autoConfigureMaterial>
+  <autoConfigureMaterial name="Eryone PLA">
+    <globalExtruderTemperature>210</globalExtruderTemperature>
+    <globalBedTemperature>65</globalBedTemperature>
+    <globalExtrusionMultiplier>0.7</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
       <setpoint layer="2" speed="100"/>
