@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="Creality Ender 5" version="2020-01-04 00:57:29" app="S3D-Software 4.1.2">
+<profile name="Creality Ender 5" version="2020-01-04 00:56:27" app="S3D-Software 4.1.2">
   <baseProfile></baseProfile>
   <printMaterial>PLA</printMaterial>
   <printQuality>High</printQuality>
@@ -264,6 +264,14 @@
     <bottomSolidLayers>4</bottomSolidLayers>
     <skirtLayers>2</skirtLayers>
     <infillPercentage>30</infillPercentage>
+    <supportInfillPercentage>40</supportInfillPercentage>
+  </autoConfigureQuality>
+  <autoConfigureQuality name="Super">
+    <layerHeight>0.08</layerHeight>
+    <topSolidLayers>4</topSolidLayers>
+    <bottomSolidLayers>4</bottomSolidLayers>
+    <skirtLayers>2</skirtLayers>
+    <infillPercentage>100</infillPercentage>
     <supportInfillPercentage>40</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureQuality name="Fast Solid">
