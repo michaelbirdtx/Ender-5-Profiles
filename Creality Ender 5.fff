@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="Creality Ender 5" version="2020-01-17 16:31:05" app="S3D-Software 4.1.2">
+<profile name="Creality Ender 5" version="2020-01-21 06:58:54" app="S3D-Software 4.1.2">
   <baseProfile></baseProfile>
   <printMaterial>PLA</printMaterial>
   <printQuality>Fast Solid</printQuality>
@@ -183,7 +183,7 @@
   <retractionMinTravel>3</retractionMinTravel>
   <retractWhileWiping>1</retractWhileWiping>
   <onlyWipeOutlines>0</onlyWipeOutlines>
-  <avoidCrossingOutline>0</avoidCrossingOutline>
+  <avoidCrossingOutline>1</avoidCrossingOutline>
   <maxMovementDetourFactor>3</maxMovementDetourFactor>
   <toolChangeRetractionDistance>12</toolChangeRetractionDistance>
   <toolChangeExtraRestartDistance>-0.5</toolChangeExtraRestartDistance>
