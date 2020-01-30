@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<profile name="Creality Ender 5" version="2020-01-23 01:52:29" app="S3D-Software 4.1.2">
+<profile name="Creality Ender 5" version="2020-01-30 00:29:28" app="S3D-Software 4.1.2">
   <baseProfile></baseProfile>
   <printMaterial>PLA</printMaterial>
-  <printQuality>Medium</printQuality>
+  <printQuality>High</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
     <toolheadNumber>0</toolheadNumber>
@@ -18,12 +18,12 @@
     <useCoasting>1</useCoasting>
     <coastingDistance>0.2</coastingDistance>
     <useWipe>1</useWipe>
-    <wipeDistance>5</wipeDistance>
+    <wipeDistance>2</wipeDistance>
   </extruder>
   <primaryExtruder>0</primaryExtruder>
-  <layerHeight>0.2</layerHeight>
-  <topSolidLayers>3</topSolidLayers>
-  <bottomSolidLayers>3</bottomSolidLayers>
+  <layerHeight>0.1</layerHeight>
+  <topSolidLayers>4</topSolidLayers>
+  <bottomSolidLayers>4</bottomSolidLayers>
   <perimeterOutlines>2</perimeterOutlines>
   <printPerimetersInsideOut>1</printPerimetersInsideOut>
   <startPointOption>2</startPointOption>
@@ -44,7 +44,7 @@
   <aboveRaftSpeedMultiplier>0.3</aboveRaftSpeedMultiplier>
   <useSkirt>1</useSkirt>
   <skirtExtruder>0</skirtExtruder>
-  <skirtLayers>1</skirtLayers>
+  <skirtLayers>2</skirtLayers>
   <skirtOutlines>2</skirtOutlines>
   <skirtOffset>4</skirtOffset>
   <usePrimePillar>0</usePrimePillar>
@@ -62,7 +62,7 @@
   <infillExtruder>0</infillExtruder>
   <internalInfillPattern>Rectilinear</internalInfillPattern>
   <externalInfillPattern>Rectilinear</externalInfillPattern>
-  <infillPercentage>20</infillPercentage>
+  <infillPercentage>30</infillPercentage>
   <outlineOverlapPercentage>15</outlineOverlapPercentage>
   <infillExtrusionWidthPercentage>100</infillExtrusionWidthPercentage>
   <minInfillLength>5</minInfillLength>
@@ -72,7 +72,7 @@
   <externalInfillAngles>45,-45</externalInfillAngles>
   <generateSupport>0</generateSupport>
   <supportExtruder>0</supportExtruder>
-  <supportInfillPercentage>30</supportInfillPercentage>
+  <supportInfillPercentage>40</supportInfillPercentage>
   <supportExtraInflation>0</supportExtraInflation>
   <supportBaseLayers>0</supportBaseLayers>
   <denseSupportExtruder>0</denseSupportExtruder>
@@ -152,7 +152,7 @@
   <exportFileFormat>gcode</exportFileFormat>
   <celebration>0</celebration>
   <celebrationSong>Funky Town</celebrationSong>
-  <postProcessing>curl -k -H &quot;X-Api-Key: 094A8C5C22F2410DA69D409B5263462A&quot; -F &quot;select=false&quot; -F &quot;print=false&quot; -F &quot;file=@[output_filepath]&quot; &quot;http://192.168.1.105:80/api/files/local&quot;,{STRIP &quot;; postProcessing&quot;}</postProcessing>
+  <postProcessing>curl -k -H &quot;X-Api-Key: 094A8C5C22F2410DA69D409B5263462A&quot; -F &quot;select=false&quot; -F &quot;print=false&quot; -F &quot;file=@[output_filepath]&quot; &quot;http://octopi.local:80/api/files/local&quot;,{STRIP &quot;; postProcessing&quot;}</postProcessing>
   <defaultSpeed>3600</defaultSpeed>
   <outlineUnderspeed>0.5</outlineUnderspeed>
   <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
