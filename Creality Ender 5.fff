@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<profile name="Creality Ender 5" version="2020-05-26 20:57:45" app="S3D-Software 4.1.2">
+<profile name="Creality Ender 5" version="2020-05-27 11:56:49" app="S3D-Software 4.1.2">
   <baseProfile></baseProfile>
-  <printMaterial>PLA x0.8</printMaterial>
+  <printMaterial>PLA</printMaterial>
   <printQuality>Fast</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Primary Extruder">
@@ -9,7 +9,7 @@
     <diameter>0.4</diameter>
     <autoWidth>0</autoWidth>
     <width>0.4</width>
-    <extrusionMultiplier>0.8</extrusionMultiplier>
+    <extrusionMultiplier>0.9</extrusionMultiplier>
     <useRetract>1</useRetract>
     <retractionDistance>8.5</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
@@ -21,7 +21,7 @@
     <wipeDistance>2</wipeDistance>
   </extruder>
   <primaryExtruder>0</primaryExtruder>
-  <layerHeight>0.3</layerHeight>
+  <layerHeight>0.28</layerHeight>
   <topSolidLayers>3</topSolidLayers>
   <bottomSolidLayers>3</bottomSolidLayers>
   <perimeterOutlines>2</perimeterOutlines>
@@ -239,7 +239,7 @@
     </fanSpeed>
   </autoConfigureMaterial>
   <autoConfigureQuality name="Fast">
-    <layerHeight>0.3</layerHeight>
+    <layerHeight>0.28</layerHeight>
     <topSolidLayers>3</topSolidLayers>
     <bottomSolidLayers>3</bottomSolidLayers>
     <skirtLayers>1</skirtLayers>
@@ -255,7 +255,7 @@
     <supportInfillPercentage>30</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureQuality name="High">
-    <layerHeight>0.1</layerHeight>
+    <layerHeight>0.12</layerHeight>
     <topSolidLayers>4</topSolidLayers>
     <bottomSolidLayers>4</bottomSolidLayers>
     <skirtLayers>2</skirtLayers>
@@ -263,7 +263,7 @@
     <supportInfillPercentage>40</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureQuality name="Fast Solid">
-    <layerHeight>0.3</layerHeight>
+    <layerHeight>0.28</layerHeight>
     <topSolidLayers>3</topSolidLayers>
     <bottomSolidLayers>3</bottomSolidLayers>
     <skirtLayers>1</skirtLayers>
@@ -279,7 +279,7 @@
     <supportInfillPercentage>30</supportInfillPercentage>
   </autoConfigureQuality>
   <autoConfigureQuality name="High Solid">
-    <layerHeight>0.1</layerHeight>
+    <layerHeight>0.12</layerHeight>
     <topSolidLayers>4</topSolidLayers>
     <bottomSolidLayers>4</bottomSolidLayers>
     <skirtLayers>2</skirtLayers>
