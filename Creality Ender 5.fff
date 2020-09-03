@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="Creality Ender 5" version="2020-07-26 11:43:52" app="S3D-Software 4.1.2">
+<profile name="Creality Ender 5" version="2020-09-03 01:08:46" app="S3D-Software 4.1.2">
   <baseProfile></baseProfile>
   <printMaterial>PLA</printMaterial>
   <printQuality>High Semi-Solid</printQuality>
@@ -193,7 +193,7 @@
   <singleExtrusionMinPrintingWidthPercentage>50</singleExtrusionMinPrintingWidthPercentage>
   <singleExtrusionMaxPrintingWidthPercentage>200</singleExtrusionMaxPrintingWidthPercentage>
   <singleExtrusionEndpointExtension>0.2</singleExtrusionEndpointExtension>
-  <horizontalSizeCompensation>0</horizontalSizeCompensation>
+  <horizontalSizeCompensation>-0.1</horizontalSizeCompensation>
   <autoConfigureMaterial name="PLA">
     <temperatureController name="Primary Extruder">
       <temperatureNumber>0</temperatureNumber>
@@ -286,44 +286,6 @@
     <infillPercentage>100</infillPercentage>
     <supportInfillPercentage>40</supportInfillPercentage>
   </autoConfigureQuality>
-  <autoConfigureMaterial name="PLA x0.7">
-    <temperatureController name="Primary Extruder">
-      <temperatureNumber>0</temperatureNumber>
-      <isHeatedBed>0</isHeatedBed>
-      <stabilizeAtStartup>1</stabilizeAtStartup>
-      <setpoint layer="1" temperature="200"/>
-    </temperatureController>
-    <temperatureController name="Heated Bed">
-      <temperatureNumber>0</temperatureNumber>
-      <isHeatedBed>1</isHeatedBed>
-      <stabilizeAtStartup>1</stabilizeAtStartup>
-      <setpoint layer="1" temperature="60"/>
-    </temperatureController>
-    <globalExtrusionMultiplier>0.7</globalExtrusionMultiplier>
-    <fanSpeed>
-      <setpoint layer="1" speed="0"/>
-      <setpoint layer="2" speed="100"/>
-    </fanSpeed>
-  </autoConfigureMaterial>
-  <autoConfigureMaterial name="PLA x0.8">
-    <temperatureController name="Primary Extruder">
-      <temperatureNumber>0</temperatureNumber>
-      <isHeatedBed>0</isHeatedBed>
-      <stabilizeAtStartup>1</stabilizeAtStartup>
-      <setpoint layer="1" temperature="200"/>
-    </temperatureController>
-    <temperatureController name="Heated Bed">
-      <temperatureNumber>0</temperatureNumber>
-      <isHeatedBed>1</isHeatedBed>
-      <stabilizeAtStartup>1</stabilizeAtStartup>
-      <setpoint layer="1" temperature="60"/>
-    </temperatureController>
-    <globalExtrusionMultiplier>0.8</globalExtrusionMultiplier>
-    <fanSpeed>
-      <setpoint layer="1" speed="0"/>
-      <setpoint layer="2" speed="100"/>
-    </fanSpeed>
-  </autoConfigureMaterial>
   <autoConfigureMaterial name="PLA+">
     <temperatureController name="Primary Extruder">
       <temperatureNumber>0</temperatureNumber>
